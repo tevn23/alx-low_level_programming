@@ -1,9 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main - program outputs if the number is positive, negative or zero 
- * 
+ * main - print if the number is positive, negative or zero
+ *
+ * Description: program prints "Programming is positive, negative or zero
+ *
  * Return: 0
  */
 int main(void)
@@ -12,7 +15,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* the conditional statement */
+	
 	if (n > 0)
 	{
 		printf("%i is positive\n", n);
