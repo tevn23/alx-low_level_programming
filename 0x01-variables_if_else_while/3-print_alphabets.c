@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * main - prints in lowercase, uppercase and followed by a new line
  *
