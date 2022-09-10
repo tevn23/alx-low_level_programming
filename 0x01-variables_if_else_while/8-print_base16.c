@@ -1,0 +1,21 @@
+#include <stdio.h>
+/**
+ * main - prints all te numbers of base 16 in lowercase
+ *
+ * Return: 0 Always
+ */
+int main(void)
+{
+	char ch;
+
+	for (ch = '0'; ch <= '9'; ch++)
+	{
+		putchar(ch);
+	}
+	for (ch = 'a'; ch <= 'f'; c++)
+	{
+		putchar(ch);
+	}
+	putchar('\n');
+	return (0);
+}
