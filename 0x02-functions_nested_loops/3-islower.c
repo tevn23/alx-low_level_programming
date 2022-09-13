@@ -11,5 +11,7 @@ int _slower(int c)
 		return (1);
 	}
 	else
+	{
 		return (0);
+	}
 }
