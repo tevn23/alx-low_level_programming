@@ -3,7 +3,7 @@
 /**
  * main - Tests function if it works with positive or negative
  *
- * Return 0 Always
+ * Return: 0 Always
  */
 
 int main(void)
