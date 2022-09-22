@@ -5,6 +5,8 @@
  * @dest: string to be added upon
  * @src: string to be completed at the end of dest
  * @n: index parameter to be compared to index
+ *
+ * Return: pointer to the resulting string @dest
  */
 
 char *_strncat(char *dest, char *src, int n)
