@@ -9,6 +9,6 @@
 
 int main(void)
 {
-	_putchar("%s\n", __FILE__);
+	putchar("%s\n", __FILE__);
 	return (0);
 }
