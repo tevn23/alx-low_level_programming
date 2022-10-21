@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_note_end - adds a new node at the end of list_t
+ * add_node_end - adds a new node at the end of list_t
  * @head: head of string
  * @str: string to store
  *
