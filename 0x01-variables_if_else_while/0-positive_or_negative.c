@@ -1,8 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/**
+ * main - prints if n is positive or negative
+ * description - n is assigned random numbers so main checks if +/-/0
+ *
+ * Return: 0
+ */
 
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
@@ -16,6 +21,5 @@ int main(void)
 		printf("%d is zero\n", n);
 	else
 		printf("%d is negative\n", n);
-		
 	return (0);
 }
