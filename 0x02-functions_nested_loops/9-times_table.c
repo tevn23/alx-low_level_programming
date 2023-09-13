@@ -17,18 +17,24 @@ void times_table(void)
 		{
 			int p = r * c;
 
-			if (p < 10)
-				_putchar((p % 10) + '0');
-			else
+			if (c > 0 && c < 9 && p < 10)
 			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar(p + '0');
+			}
+			else if (c > 0 && c < 9 && p >= 10)
+			{
+				_putchar(',');
+				_putchar(' ');
 				_putchar((p / 10) + '0');
 				_putchar((p % 10) + '0');
 			}
-			_putchar(',');
-			_putchar(' ');
-			_putchar(' ');
+			else if (c == 0)
+				_putchar('0');
+			else
+				_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
-
