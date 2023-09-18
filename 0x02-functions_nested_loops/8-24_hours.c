@@ -17,7 +17,7 @@ void jack_bauer(void)
 	for (first_digit = 0; first_digit <= 2; first_digit++)
 		for (second_digit = 0; second_digit <= 9; second_digit++)
 			for (third_digit = 0; third_digit <= 5; third_digit++)
-				for(fourth_digit = 0; fourth_digit <= 9; fourth_digit++)
+				for (fourth_digit = 0; fourth_digit <= 9; fourth_digit++)
 				{
 					if (first_digit == 2 && second_digit > 3)
 						break;
