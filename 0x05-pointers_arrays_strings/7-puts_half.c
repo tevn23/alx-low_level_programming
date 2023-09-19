@@ -7,7 +7,7 @@
  * Return: void
  */
 
-int _strlen(char *s);
+int _strlen(char *str);
 
 void puts_half(char *str)
 {
@@ -28,17 +28,17 @@ void puts_half(char *str)
 }
 
 /**
- * _strlen - returns length of a string
- * @s: string to be inputted
+ * _strlen - returns the length of a string
+ * @str: string to be calculated
  *
- * Return: length of string
+ * Return: void
  */
 
-int _strlen(char *s)
+int _strlen(char *str)
 {
 	int i = 0;
 
-	while (s[i] != '\0')
+	while (str[i] != '\0')
 		i++;
 
 	return (i);
