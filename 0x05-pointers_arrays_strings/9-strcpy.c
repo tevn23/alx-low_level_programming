@@ -1,5 +1,7 @@
 #include "main.h"
 
+int _strlen(char *src);
+
 /**
  * _strcpy - copies the string pointed to by src
  * including the terminating null byte (\0)
@@ -9,8 +11,6 @@
  *
  * Return: pointer to dest
  */
-
-int _strlen(char *src);
 
 char *_strcpy(char *dest, char *src)
 {
@@ -25,17 +25,17 @@ char *_strcpy(char *dest, char *src)
 
 /**
  * _strlen - returns length of a string
- * @s: string to be inputted
+ * @src: string to be inputted
  *
  * Return: length of string
  */
 
 int _strlen(char *src)
 {
-        int i = 0;
+	int i = 0;
 
-        while (src[i] != '\0')
-                i++;
+	while (src[i] != '\0')
+		i++;
 
-        return (i);
+	return (i);
 }
