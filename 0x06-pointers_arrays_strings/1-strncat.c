@@ -4,6 +4,7 @@
  * _strncat - concatenates two strings
  * @dest: destination string
  * @src: source string
+ * @n: no of bytes allowed
  *
  * Return: Pointer to resulting string dest
  */
@@ -16,7 +17,7 @@ char *_strncat(char *dest, char *src, int n)
 		dest++;
 
 	for (; *src != '\0' && n > 0; src++, dest++, n--)
-			*dest = *src;
+		*dest = *src;
 	*dest = '\0';
 	return (dest_start);
 }
