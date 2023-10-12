@@ -2,6 +2,14 @@
 #include <stdlib.h>
 #include "3-calc.h"
 
+/**
+ * main - performs calculation on two integers
+ * @argc: argument count
+ * @argv: argument vector
+ *
+ * Return: 0 on Success
+ */
+
 int main(int argc, char *argv[]) 
 {
 	int num1, num2, result;
