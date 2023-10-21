@@ -32,15 +32,15 @@ int main(void)
     add_node_end(&head, "Matthew");
     add_node_end(&head, "Max");
     add_node_end(&head, "Michael");
-    add_node_end(&head, "Ntuj");
-    add_node_end(&head, "Philip");
-    add_node_end(&head, "Richard");
-    add_node_end(&head, "Samantha");
-    add_node_end(&head, "Stuart");
-    add_node_end(&head, "Swati");
-    add_node_end(&head, "Timothy");
-    add_node_end(&head, "Victor");
-    add_node_end(&head, "Walton");
+    add_node_end(&head, "Tevn23");
+    add_node_end(&head, "Tevin");
+    add_node_end(&head, "Thakgatso");
+    add_node_end(&head, "Mrs Mabula");
+    add_node_end(&head, "Antoinete");
+    add_node_end(&head, "Anto");
+    add_node_end(&head, "Mmasebotsana");
+    add_node_end(&head, "Mabeautiful");
+    add_node_end(&head, "Mmabotse");
     print_list(head);
     return (0);
 }
