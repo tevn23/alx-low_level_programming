@@ -1,1 +1,5 @@
-int _isupper(int c);
+#include "main"
+
+int _isupper(int c)
+{
+}
