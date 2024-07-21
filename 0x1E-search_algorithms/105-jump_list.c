@@ -12,7 +12,7 @@
  */
 listint_t *jump_list(listint_t *list, size_t size, int value)
 {
-	size_t step, prev_index;
+	size_t i, step, prev_index;
 	listint_t *prev, *current;
 
 	if (list == NULL)
@@ -26,7 +26,7 @@ listint_t *jump_list(listint_t *list, size_t size, int value)
 	{
 		prev = current;
 		prev_index = current->index;
-		for (size_t i = 0; i < step && current->next != NULL; i++)
+		for (i = 0; i < step && current->next != NULL; i++)
 			current = current->next;
 		printf("Value checked at index [%lu] = [%d]\n", current->index, current->n);
 
